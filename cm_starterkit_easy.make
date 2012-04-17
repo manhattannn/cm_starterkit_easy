@@ -5,19 +5,35 @@ api = 2
 projects[drupal][version] = "7.x"
 
 ; Modules
+projects[views_bulk_operations][version] = "3.0-rc1"
+
 projects[ctools][version] = "1.0-rc1"
 
 projects[captcha][version] = "1.0-beta2"
 
 projects[cm_checklist][version] = "1.x-dev"
 
+projects[cm_show][version] = "1.x-dev"
+
 projects[cm_slideshow][version] = "1.x-dev"
+
+projects[entity][version] = "1.0-rc1"
 
 projects[features][version] = "1.0-beta6"
 
+projects[field_group][version] = "1.1"
+
 projects[fontyourface][version] = "2.2"
 
+projects[jquery_update][version] = "2.2"
+
 projects[legal][version] = "1.2"
+
+projects[om_crew_connect][version] = "2.0-beta2"
+
+projects[pbcore][version] = "1.0-beta1"
+
+projects[profile2][version] = "1.2"
 
 projects[recaptcha][version] = "1.7"
 
