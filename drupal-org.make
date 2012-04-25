@@ -31,7 +31,7 @@ projects[jquery_update][version] = "2.2"
 
 projects[legal][version] = "1.2"
 
-projects[om_crew_connect][version] = "2.0-beta2"
+projects[om_crew_connect][version] = "2.0-beta3"
 
 projects[pbcore][version] = "1.0-beta1"
 
