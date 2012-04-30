@@ -41,7 +41,7 @@ projects[profile2][version] = "1.2"
 
 projects[recaptcha][version] = "1.7"
 
-projects[strongarm][version] = "7.x-2.0-rc1"
+projects[strongarm][version] = "2.0-rc1"
 
 projects[views][version] = "3.3"
 
