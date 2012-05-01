@@ -31,7 +31,7 @@ projects[fontyourface][version] = "2.2"
 
 projects[jquery_update][version] = "2.2"
 
-projects[legal][version] = "1.2"
+projects[legal][version] = "1.x-dev"
 
 projects[om_crew_connect][version] = "2.0-beta3"
 
