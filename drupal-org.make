@@ -9,7 +9,7 @@ projects[backup_migrate][subdir] = "sites/all/modules/contrib"
 projects[backup_migrate][version] = "2.2"
 
 projects[ctools][subdir] = "sites/all/modules/contrib"
-projects[ctools][version] = "1.0-rc1"
+projects[ctools][version] = "1.0"
 
 projects[captcha][subdir] = "sites/all/modules/contrib"
 projects[captcha][version] = "1.0-beta2"
@@ -27,10 +27,10 @@ projects[cm_slideshow][subdir] = "sites/all/modules/contrib-cm"
 projects[cm_slideshow][version] = "1.x-dev"
 
 projects[entity][subdir] = "sites/all/modules/contrib"
-projects[entity][version] = "1.0-rc1"
+projects[entity][version] = "1.0-rc2"
 
 projects[features][subdir] = "sites/all/modules/contrib"
-projects[features][version] = "1.0-beta6"
+projects[features][version] = "1.0-rc2"
 
 projects[field_group][subdir] = "sites/all/modules/contrib"
 projects[field_group][version] = "1.1"
