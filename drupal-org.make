@@ -35,7 +35,7 @@ projects[features][version] = "1.0-rc2"
 projects[field_group][subdir] = "sites/all/modules/contrib"
 projects[field_group][version] = "1.1"
 
-projects[flexinode][subdir] = "sites/all/modules/contrib"
+projects[flexslider][subdir] = "sites/all/modules/contrib"
 projects[flexslider][version] = "1.0-rc2"
 
 projects[fontyourface][subdir] = "sites/all/modules/contrib"
@@ -104,3 +104,8 @@ libraries[tinymce][download][type] = get
 libraries[tinymce][download][url] = "https://github.com/downloads/tinymce/tinymce/tinymce_3.4.8.zip"
 libraries[tinymce][destination] = libraries
 libraries[tinymce][directory_name] = tinymce
+
+libraries[flexsider][download][type] = get
+libraries[flexsider][download][url] = "https://github.com/downloads/woothemes/FlexSlider/FlexSlider-1.8.zip"
+libraries[flexsider][destination] = libraries
+libraries[flexsider][directory_name] = flexsider
