@@ -35,6 +35,9 @@ projects[features][version] = "1.0-rc2"
 projects[field_group][subdir] = "sites/all/modules/contrib"
 projects[field_group][version] = "1.1"
 
+projects[flexinode][subdir] = "sites/all/modules/contrib"
+projects[flexslider][version] = "1.0-rc2"
+
 projects[fontyourface][subdir] = "sites/all/modules/contrib"
 projects[fontyourface][version] = "2.2"
 
@@ -49,6 +52,9 @@ projects[jquery_update][version] = "2.2"
 
 projects[legal][subdir] = "sites/all/modules/contrib"
 projects[legal][version] = "1.x-dev"
+
+projects[libraries][subdir] = "sites/all/modules/contrib"
+projects[libraries][version] = "1.0"
 
 projects[om_crew_connect][subdir] = "sites/all/modules/contrib-cm"
 projects[om_crew_connect][version] = "2.0-beta3"
@@ -65,11 +71,17 @@ projects[recaptcha][version] = "1.7"
 projects[strongarm][subdir] = "sites/all/modules/contrib"
 projects[strongarm][version] = "2.0-rc1"
 
+projects[styles][subdir] = "sites/all/modules/contrib"
+projects[styles][version] = "2.0-alpha8"
+
 projects[views][subdir] = "sites/all/modules/contrib"
 projects[views][version] = "3.3"
 
 projects[views_send][subdir] = "sites/all/modules/contrib"
 projects[views_send][version] = "1.x-dev"
+
+projects[views_slideshow][subdir] = "sites/all/modules/contrib"
+projects[views_slideshow][version] = "7.x-3.0"
 
 projects[webform][subdir] = "sites/all/modules/contrib"
 projects[webform][version] = "3.17"
