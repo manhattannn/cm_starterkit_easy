@@ -81,7 +81,7 @@ projects[views_send][subdir] = "sites/all/modules/contrib"
 projects[views_send][version] = "1.x-dev"
 
 projects[views_slideshow][subdir] = "sites/all/modules/contrib"
-projects[views_slideshow][version] = "7.x-3.0"
+projects[views_slideshow][version] = "3.0"
 
 projects[webform][subdir] = "sites/all/modules/contrib"
 projects[webform][version] = "3.17"
