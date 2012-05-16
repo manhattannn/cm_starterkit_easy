@@ -1,13 +1,13 @@
 ; Use this file to build a full distribution including Drupal core and the
 ; Community Media Starter Kit (Easy) install profile using the following command:
 ;
-; drush make cm_starterkit_easy.make <target directory>
+; drush make distro.make <target directory>
 
 api = 2
 core = 7.14
 
 projects[drupal][type] = core
-projects[drupal][version] = "7"
+projects[drupal][version] = "7.14"
 
 ; Add Community Media Starter Kit (Easy) to the full distribution build.
 projects[cm_starterkit_easy][type] = profile
