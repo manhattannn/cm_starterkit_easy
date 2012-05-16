@@ -4,7 +4,7 @@
 ; drush make cm_starterkit_easy.make <target directory>
 
 api = 2
-core = 7.x
+core = 7.14
 
 projects[drupal][type] = core
 projects[drupal][version] = "7"
