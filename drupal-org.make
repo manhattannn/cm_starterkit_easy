@@ -11,7 +11,7 @@ projects[cm_show][version] = "1.x-dev"
 projects[cm_slideshow][subdir] = "contrib-cm"
 projects[cm_slideshow][version] = "1.x-dev"
 
-projects[om_crew_connect][subdir] = "sites/all/modules/contrib-cm"
+projects[om_crew_connect][subdir] = "contrib-cm"
 projects[om_crew_connect][version] = "2.0-beta3"
 
 ; Contrib Modules
