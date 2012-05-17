@@ -4,6 +4,8 @@ api = 2
 ; Drupal Core
 projects[drupal][version] = "7.14"
 
+; ====== EASY =========
+
 ; Community Media Modules
 projects[cm_checklist][subdir] = "contrib-cm"
 projects[cm_checklist][version] = "1.x-dev"
@@ -36,7 +38,7 @@ projects[entity][version] = "1.0-rc2"
 projects[features][subdir] = "contrib"
 projects[features][version] = "1.0-rc2"
 
-projects[field_group][subdir] = "/contrib"
+projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.1"
 
 projects[flexslider][subdir] = "contrib"
