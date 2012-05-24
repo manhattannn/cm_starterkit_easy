@@ -62,6 +62,9 @@ projects[legal][version] = "1.x-dev"
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "1.0"
 
+projects[pathauto][subdir] = "contrib"
+projects[pathauto][version] = "1.1"
+
 projects[pbcore][subdir] = "contrib"
 projects[pbcore][version] = "1.0-beta1"
 
