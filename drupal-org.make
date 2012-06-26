@@ -63,7 +63,7 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.1"
 
 projects[pbcore][subdir] = "contrib"
-projects[pbcore][version] = "1.0-beta1"
+projects[pbcore][version] = "1.0-beta2"
 
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.2"
