@@ -14,14 +14,14 @@ projects[cm_show][subdir] = "contrib-cm"
 projects[cm_show][version] = "1.x-dev"
 
 projects[cm_slideshow][subdir] = "contrib-cm"
-projects[cm_slideshow][version] = "1.0-alpha1"
+projects[cm_slideshow][version] = "1.0-alpha2"
 
 projects[om_crew_connect][subdir] = "contrib-cm"
 projects[om_crew_connect][version] = "2.0-beta3"
 
 ; Contrib Modules
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.2"
+projects[backup_migrate][version] = "2.4"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0"

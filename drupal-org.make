@@ -18,7 +18,7 @@ projects[om_crew_connect][version] = "2.0-beta3"
 
 ; Contrib Modules
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.2"
+projects[backup_migrate][version] = "2.4"
 
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.0"
@@ -97,7 +97,7 @@ projects[wysiwyg][version] = "2.1"
 
 ; Themes
 projects[omega][version] = "3.1"
-projects[cm_theme][version] = "1.0-alpha1"
+projects[cm_theme][version] = "1.0-alpha2"
 
 ;Libraries
 libraries[ckeditor][download][type] = get
