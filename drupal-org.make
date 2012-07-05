@@ -7,11 +7,14 @@ core = 7.14
 projects[cm_checklist][subdir] = "contrib-cm"
 projects[cm_checklist][version] = "1.x-dev"
 
+projects[cm_profile][subdir] = "contrib-cm"
+projects[cm_profile][version] = "1.x-dev"
+
 projects[cm_show][subdir] = "contrib-cm"
 projects[cm_show][version] = "1.x-dev"
 
 projects[cm_slideshow][subdir] = "contrib-cm"
-projects[cm_slideshow][version] = "1.0-alpha1"
+projects[cm_slideshow][version] = "1.0-alpha2"
 
 projects[om_crew_connect][subdir] = "contrib-cm"
 projects[om_crew_connect][version] = "2.0-beta3"

@@ -10,6 +10,9 @@ projects[drupal][version] = "7.14"
 projects[cm_checklist][subdir] = "contrib-cm"
 projects[cm_checklist][version] = "1.x-dev"
 
+projects[cm_profile][subdir] = "contrib-cm"
+projects[cm_profile][version] = "1.x-dev"
+
 projects[cm_show][subdir] = "contrib-cm"
 projects[cm_show][version] = "1.x-dev"
 
