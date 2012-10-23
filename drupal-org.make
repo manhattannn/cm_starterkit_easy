@@ -1,5 +1,5 @@
 api = 2
-core = 7.14
+core = 7.15
 
 ; ====== EASY =========
 
@@ -14,7 +14,7 @@ projects[cm_show][subdir] = "contrib-cm"
 projects[cm_show][version] = "1.x-dev"
 
 projects[cm_slideshow][subdir] = "contrib-cm"
-projects[cm_slideshow][version] = "1.0-alpha2"
+projects[cm_slideshow][version] = "1.0-beta1"
 
 projects[om_crew_connect][subdir] = "contrib-cm"
 projects[om_crew_connect][version] = "2.0-beta3"
@@ -30,22 +30,22 @@ projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.0-beta2"
 
 projects[creativecommons][subdir] = "contrib"
-projects[creativecommons][version] = "1.x-dev"
+projects[creativecommons][version] = "1.0-alpha2"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.0-rc2"
+projects[entity][version] = "1.0-rc3"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-rc2"
+projects[features][version] = "1.0-alpha5"
 
 projects[field_group][subdir] = "contrib"
-projects[field_group][version] = "1.1"
+projects[field_group][version] = "2.x-dev"
 
 projects[flexslider][subdir] = "contrib"
-projects[flexslider][version] = "1.0-rc2"
+projects[flexslider][version] = "1.0-rc3"
 
 projects[fontyourface][subdir] = "contrib"
-projects[fontyourface][version] = "2.2"
+projects[fontyourface][version] = "2.5"
 
 projects[imce][subdir] = "contrib"
 projects[imce][version] = "1.5"
@@ -60,10 +60,10 @@ projects[legal][subdir] = "contrib"
 projects[legal][version] = "1.x-dev"
 
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "1.0"
+projects[libraries][version] = "3.x-dev"
 
 projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.1"
+projects[pathauto][version] = "1.2"
 
 projects[pbcore][subdir] = "contrib"
 projects[pbcore][version] = "1.0-beta2"
@@ -75,7 +75,7 @@ projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.7"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0-rc1"
+projects[strongarm][version] = "2.0"
 
 projects[styles][subdir] = "contrib"
 projects[styles][version] = "2.0-alpha8"
