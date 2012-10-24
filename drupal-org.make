@@ -7,6 +7,9 @@ core = 7.15
 projects[cm_checklist][subdir] = "contrib-cm"
 projects[cm_checklist][version] = "1.x-dev"
 
+projects[cm_header][subdir] = "contrib-cm"
+projects[cm_header][version] = "1.0-alpha1"
+
 projects[cm_profile][subdir] = "contrib-cm"
 projects[cm_profile][version] = "1.x-dev"
 
@@ -73,6 +76,9 @@ projects[profile2][version] = "1.2"
 
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.7"
+
+projects[resp_img][subdir] = "contrib"
+projects[resp_img][version] = "1.3"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
