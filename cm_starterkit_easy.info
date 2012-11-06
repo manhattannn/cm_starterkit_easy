@@ -1,6 +1,7 @@
 name = Community Media Starter Kit (Easy)
 description = Install with commonly used features pre-configured.
-version = VERSION
+distribution_name = Community Media Starter Kit (Easy)
+
 core = 7.x
 dependencies[] = block
 dependencies[] = color
@@ -25,3 +26,4 @@ dependencies[] = file
 dependencies[] = rdf
 dependencies[] = cm_checklist
 
+files[] = cm_starterkit_easy.profile

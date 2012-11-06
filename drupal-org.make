@@ -1,5 +1,5 @@
 api = 2
-core = 7.15
+core = 7.16
 
 ; ====== EASY =========
 
@@ -49,6 +49,9 @@ projects[flexslider][version] = "1.0-rc3"
 
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.5"
+
+projects[headerimage][subdir] = "contrib"
+projects[headerimage][version] = "1.0"
 
 projects[imce][subdir] = "contrib"
 projects[imce][version] = "1.5"

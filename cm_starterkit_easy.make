@@ -1,8 +1,8 @@
-core = 7.15
+core = 7.16
 api = 2
 
 ; Drupal Core
-projects[drupal][version] = "7.15"
+projects[drupal][version] = "7.16"
 
 ; ====== EASY =========
 
@@ -12,9 +12,6 @@ projects[cm_checklist][version] = "1.x-dev"
 
 projects[cm_header][subdir] = "contrib-cm"
 projects[cm_header][version] = "1.0-alpha1"
-
-projects[cm_profile][subdir] = "contrib-cm"
-projects[cm_profile][version] = "1.x-dev"
 
 projects[cm_show][subdir] = "contrib-cm"
 projects[cm_show][version] = "1.x-dev"
@@ -53,6 +50,9 @@ projects[flexslider][version] = "1.0-rc3"
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.5"
 
+projects[headerimage][subdir] = "contrib"
+projects[headerimage][version] = "1.0"
+
 projects[imce][subdir] = "contrib"
 projects[imce][version] = "1.5"
 
@@ -85,6 +85,9 @@ projects[recaptcha][version] = "1.7"
 
 projects[resp_img][subdir] = "contrib"
 projects[resp_img][version] = "1.3"
+
+projects[strongarm][subdir] = "contrib"
+projects[strongarm][version] = "2.0"
 
 projects[styles][subdir] = "contrib"
 projects[styles][version] = "2.0-alpha8"

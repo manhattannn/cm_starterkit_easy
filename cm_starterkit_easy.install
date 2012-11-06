@@ -68,9 +68,13 @@ function cm_starterkit_easy_install() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
 
-  // Enable some cm_starterkit_easy blocks.
-  $default_theme = variable_get('theme_default', 'bartik');
+  // Enable some the themes.
+  $default_theme = 'cm_theme';
   $admin_theme = 'seven';
+  theme_enable(array($default_theme, $admin_theme));
+  
+  // Enable some blocks.
+  
   $blocks = array(
     array(
       'module' => 'system',
@@ -188,7 +192,7 @@ function cm_starterkit_easy_install() {
       'theme' => $admin_theme,
       'status' => 1,
       'weight' => -10,
-      'region' => 'dashboard_sidebar',
+      'region' => 'header_second',
       'pages' => '',
       'cache' => -1,
     ),
@@ -212,15 +216,6 @@ function cm_starterkit_easy_install() {
       'modified' => 1,
       'locked' => 0,
     ),
-    array(
-      'type' => 'article',
-      'name' => st('Article'),
-      'base' => 'node_content',
-      'description' => st('Use <em>articles</em> for time-sensitive content like news, press releases or blog posts.'),
-      'custom' => 1,
-      'modified' => 1,
-      'locked' => 0,
-    ),
   );
 
   foreach ($types as $type) {
@@ -236,20 +231,6 @@ function cm_starterkit_easy_install() {
       'bundle' => 'page',
       'mapping' => array(
         'rdftype' => array('foaf:Document'),
-      ),
-    ),
-    array(
-      'type' => 'node',
-      'bundle' => 'article',
-      'mapping' => array(
-        'field_image' => array(
-          'predicates' => array('og:image', 'rdfs:seeAlso'),
-          'type' => 'rel',
-        ),
-        'field_tags' => array(
-          'predicates' => array('dc:subject'),
-          'type' => 'rel',
-        ),
       ),
     ),
   );
@@ -305,7 +286,7 @@ function cm_starterkit_easy_install() {
     'field_name' => 'field_' . $vocabulary->machine_name,
     'entity_type' => 'node',
     'label' => 'Tags',
-    'bundle' => 'article',
+    'bundle' => 'page',
     'description' => $vocabulary->help,
     'widget' => array(
       'type' => 'taxonomy_autocomplete',
@@ -353,8 +334,8 @@ function cm_starterkit_easy_install() {
     'field_name' => 'field_image',
     'entity_type' => 'node',
     'label' => 'Image',
-    'bundle' => 'article',
-    'description' => st('Upload an image to go with this article.'),
+    'bundle' => 'page',
+    'description' => st('Upload an image to go with this page.'),
     'required' => FALSE,
 
     'settings' => array(
@@ -429,6 +410,7 @@ function cm_starterkit_easy_install() {
     ->condition('type', 'theme')
     ->condition('name', 'seven')
     ->execute();
+    
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
 }
