@@ -1,8 +1,8 @@
-core = 7.16
+core = 7.17
 api = 2
 
 ; Drupal Core
-projects[drupal][version] = "7.16"
+projects[drupal][version] = "7.17"
 
 ; ====== EASY =========
 
@@ -27,7 +27,7 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.4"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.0"
+projects[ctools][version] = "1.2"
 
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.0-beta2"
@@ -48,10 +48,10 @@ projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "1.0-rc3"
 
 projects[fontyourface][subdir] = "contrib"
-projects[fontyourface][version] = "2.5"
+projects[fontyourface][version] = "2.6"
 
 projects[headerimage][subdir] = "contrib"
-projects[headerimage][version] = "1.0"
+projects[headerimage][version] = "1.1"
 
 projects[imce][subdir] = "contrib"
 projects[imce][version] = "1.5"
@@ -89,17 +89,14 @@ projects[resp_img][version] = "1.3"
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
-projects[styles][subdir] = "contrib"
-projects[styles][version] = "2.0-alpha8"
-
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.4"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.4"
+projects[views][version] = "3.5"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "3.0"
+projects[views_bulk_operations][version] = "3.1"
 
 projects[views_send][subdir] = "contrib"
 projects[views_send][version] = "1.x-alpha1"

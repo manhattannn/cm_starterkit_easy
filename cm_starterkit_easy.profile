@@ -29,18 +29,15 @@ function cm_starterkit_easy_install_tasks_alter(&$tasks, $install_state) {
 } 
 
 function cm_starterkit_easy_install_finished(&$install_state) {
-  //admin/reports/communitymedia-checklist
-  drupal_set_title(st('@drupal installation complete', array('@drupal' => drupal_install_profile_distribution_name())), PASS_THROUGH);
+drupal_set_title(st('@drupal installation complete', array('@drupal' => drupal_install_profile_distribution_name())), PASS_THROUGH);
   $messages = drupal_set_message();
   $output = '<p>' . st('Congratulations, you installed @drupal!', array('@drupal' => drupal_install_profile_distribution_name())) . '</p>';
-  $output .= '<p>' . (isset($messages['error']) ? st('Review the messages above before enabling <a href="@url">the features of your new site</a>.', array('@url' => url('admin/structure/features'))) : st('<a href="@url">Visit your new site and enable features</a>.', array('@url' => url('admin/structure/features')))) . '</p>';   
-  
-  
+  $output .= '<p>' . (isset($messages['error']) ? st('Review any messages above before <a href="@url">using the Community Media Checklist to start configuring your site</a>.', array('@url' => url('admin/reports/communitymedia-checklist'))) : st('Use the <a href="@url">Community Media Checklist</a> to start configuring your site.', array('@url' => url('admin/reports/communitymedia-checklist')))) . '</p>';   
+    
   variable_set('theme_default', 'cm_theme');
-  
+
   // Disable the core theme.
   theme_disable(array('bartik'));
-  
   
   // Flush all caches to ensure that any full bootstraps during the installer
   // do not leave stale cached data, and that any content types or other items
