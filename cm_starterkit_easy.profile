@@ -110,7 +110,7 @@ function cm_starterkit_easy_update_status_alter(&$projects) {
     //}
     // Hide bad releases (insecure, revoked, unsupported) if they are younger
     // than 7 days (giving distribution time to prepare an update).
-    elseif (isset($project_info['status']) && in_array($project_info['status'], $bad_statuses)) {
+    if (isset($project_info['status']) && in_array($project_info['status'], $bad_statuses)) {
       $days_ago = strtotime('7 days ago');
       if ($project_info['releases'][$project_info['recommended']]['date'] < $days_ago) {
         unset($projects[$project_name]);

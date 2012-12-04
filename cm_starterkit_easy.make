@@ -112,7 +112,7 @@ projects[wysiwyg][version] = "2.2"
 
 ; Themes
 projects[omega][version] = "3.1"
-projects[cm_theme][version] = "1.0-alpha1"
+projects[cm_theme][version] = "1.0-beta2"
 
 ;Libraries
 libraries[ckeditor][download][type] = get

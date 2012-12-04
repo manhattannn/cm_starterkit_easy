@@ -92,7 +92,7 @@ function cm_starterkit_easy_install() {
       'theme' => $default_theme,
       'status' => 1,
       'weight' => -1,
-      'region' => 'sidebar_first',
+      'region' => 'header_second',
       'pages' => '',
       'cache' => -1,
     ),

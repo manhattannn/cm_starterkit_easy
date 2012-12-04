@@ -1,5 +1,6 @@
 name = Community Media Starter Kit (Easy)
-description = Install with commonly used features pre-configured.
+description = "Install Drupal with commonly used modules included, but not enabled or configured.  
+Use the Checklist to complete the configuration."
 distribution_name = Community Media Starter Kit (Easy)
 
 core = 7.x
