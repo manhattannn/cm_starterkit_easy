@@ -53,6 +53,9 @@ projects[flexslider][version] = "1.0-rc3"
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.5"
 
+projects[google_analytics][subdir] = "contrib"
+projects[google_analytics][version] = "1.3"
+
 projects[imce][subdir] = "contrib"
 projects[imce][version] = "1.5"
 
