@@ -1,5 +1,5 @@
 api = 2
-core = 7.15
+core = 7.17
 
 ; ====== EASY =========
 
@@ -27,7 +27,7 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.4"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.0"
+projects[ctools][version] = "1.2"
 
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.0-beta2"
@@ -48,7 +48,10 @@ projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "1.0-rc3"
 
 projects[fontyourface][subdir] = "contrib"
-projects[fontyourface][version] = "2.5"
+projects[fontyourface][version] = "2.6"
+
+projects[headerimage][subdir] = "contrib"
+projects[headerimage][version] = "1.1"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.3"
@@ -86,14 +89,14 @@ projects[resp_img][version] = "1.3"
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
-projects[styles][subdir] = "contrib"
-projects[styles][version] = "2.0-alpha8"
+projects[token][subdir] = "contrib"
+projects[token][version] = "1.3"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.3"
+projects[views][version] = "3.5"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "3.0-rc1"
+projects[views_bulk_operations][version] = "3.1"
 
 projects[views_send][subdir] = "contrib"
 projects[views_send][version] = "1.x-dev"
@@ -109,7 +112,7 @@ projects[wysiwyg][version] = "2.1"
 
 ; Themes
 projects[omega][version] = "3.1"
-projects[cm_theme][version] = "1.0-alpha2"
+projects[cm_theme][version] = "1.0-beta2"
 
 ;Libraries
 libraries[ckeditor][download][type] = get
