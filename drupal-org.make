@@ -92,6 +92,9 @@ projects[resp_img][version] = "1.3"
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
+projects[styles][subdir] = "contrib"
+projects[styles][version] = "2.0-alpha8"
+
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.3"
 
