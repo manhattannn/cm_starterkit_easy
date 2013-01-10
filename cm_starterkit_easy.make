@@ -26,6 +26,10 @@ projects[om_crew_connect][version] = "2.0-beta3"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.4"
 
+projects[css_injector][subdir] = "contrib"
+projects[css_injector][version] = "1.7"
+
+
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.2"
 
