@@ -26,6 +26,9 @@ projects[om_crew_connect][version] = "2.0-beta3"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.4"
 
+projects[css_injector][subdir] = "contrib"
+projects[css_injector][version] = "1.7"
+
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.2"
 
@@ -52,6 +55,9 @@ projects[fontyourface][version] = "2.6"
 
 projects[headerimage][subdir] = "contrib"
 projects[headerimage][version] = "1.1"
+
+projects[google_analytics][subdir] = "contrib"
+projects[google_analytics][version] = "1.3"
 
 projects[imce][subdir] = "contrib"
 projects[imce][version] = "1.5"
@@ -85,6 +91,9 @@ projects[resp_img][version] = "1.3"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
+
+projects[styles][subdir] = "contrib"
+projects[styles][version] = "2.0-alpha8"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.3"
