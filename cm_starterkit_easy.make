@@ -26,6 +26,9 @@ projects[om_crew_connect][version] = "2.0-beta4"
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.4"
 
+projects[block_class][subdir] = "contrib"
+projects[block_class][version] = "2.0"
+
 projects[css_injector][subdir] = "contrib"
 projects[css_injector][version] = "1.8"
 
@@ -73,6 +76,9 @@ projects[legal][version] = "1.x-dev"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.0"
+
+projects[menu_attributes][subdir] = "contrib"
+projects[menu_attributes][version] = "1.0-rc2"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
