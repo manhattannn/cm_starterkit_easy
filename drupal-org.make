@@ -50,6 +50,9 @@ projects[features][version] = "1.0-alpha5"
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "2.x-dev"
 
+projects[fitvids][subdir] = "contrib"
+projects[fitvids][version] = "1.9"
+
 projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "1.0-rc3"
 
