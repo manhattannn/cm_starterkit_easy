@@ -1,8 +1,8 @@
-core = 7.20
+core = 7.21
 api = 2
 
 ; Drupal Core
-projects[drupal][version] = "7.19"
+projects[drupal][version] = "7.21"
 
 ; ====== EASY =========
 
