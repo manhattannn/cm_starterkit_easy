@@ -45,7 +45,7 @@ projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0-alpha5"
+projects[features][version] = "2.0-beta1"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "2.x-dev"
