@@ -108,7 +108,7 @@ projects[token][subdir] = "contrib"
 projects[token][version] = "1.4"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.5"
+projects[views][version] = "3.6"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.1"
