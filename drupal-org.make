@@ -41,6 +41,9 @@ projects[captcha][version] = "1.0-beta2"
 projects[creativecommons][subdir] = "contrib"
 projects[creativecommons][version] = "1.0-alpha2"
 
+projects[empty_page][subdir] = "contrib"
+projects[empty_page][version] = "1.0"
+
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.0"
 
