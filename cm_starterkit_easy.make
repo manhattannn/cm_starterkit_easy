@@ -107,9 +107,6 @@ projects[resp_img][version] = "1.3"
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
-projects[styles][subdir] = "contrib"
-projects[styles][version] = "2.0-alpha8"
-
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.4"
 
@@ -134,6 +131,9 @@ projects[wysiwyg][version] = "2.2"
 ; Themes
 projects[omega][version] = "3.1"
 projects[cm_theme][version] = "1.0-beta2"
+
+projects [zen][version] = "5.1"
+projects [cm_theme][version] = "2.x-dev"
 
 ;Libraries
 libraries[ckeditor][download][type] = get
