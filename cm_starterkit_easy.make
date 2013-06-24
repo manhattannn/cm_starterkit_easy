@@ -1,8 +1,8 @@
-core = 7.21
+core = 7.22
 api = 2
 
 ; Drupal Core
-projects[drupal][version] = "7.21"
+projects[drupal][version] = "7.22"
 
 ; ====== EASY =========
 
@@ -17,7 +17,7 @@ projects[cm_show][subdir] = "contrib-cm"
 projects[cm_show][version] = "1.x-dev"
 
 projects[cm_slideshow][subdir] = "contrib-cm"
-projects[cm_slideshow][version] = "1.0-beta1"
+projects[cm_slideshow][version] = "2.0-alpha1"
 
 projects[om_crew_connect][subdir] = "contrib-cm"
 projects[om_crew_connect][version] = "2.0-beta4"
@@ -149,4 +149,4 @@ libraries[tinymce][directory_name] = tinymce
 libraries[flexslider][download][type] = get
 libraries[flexslider][download][url] = "https://github.com/downloads/woothemes/FlexSlider/FlexSlider-1.8.zip"
 libraries[flexslider][destination] = libraries
-libraries[flexslider][directory_name] = flexslider-download
+libraries[flexslider][directory_name] = flexslider

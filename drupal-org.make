@@ -10,17 +10,14 @@ projects[cm_checklist][version] = "1.x-dev"
 projects[cm_header][subdir] = "contrib-cm"
 projects[cm_header][version] = "1.0-alpha1"
 
-projects[cm_profile][subdir] = "contrib-cm"
-projects[cm_profile][version] = "1.x-dev"
-
 projects[cm_show][subdir] = "contrib-cm"
 projects[cm_show][version] = "1.x-dev"
 
 projects[cm_slideshow][subdir] = "contrib-cm"
-projects[cm_slideshow][version] = "1.0-beta1"
+projects[cm_slideshow][version] = "2.0-alpha1"
 
 projects[om_crew_connect][subdir] = "contrib-cm"
-projects[om_crew_connect][version] = "2.0-beta3"
+projects[om_crew_connect][version] = "2.0-beta4"
 
 ; Contrib Modules
 projects[backup_migrate][subdir] = "contrib"
@@ -39,7 +36,7 @@ projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.0-beta2"
 
 projects[creativecommons][subdir] = "contrib"
-projects[creativecommons][version] = "1.0-alpha2"
+projects[creativecommons][version] = "1.x-alpha2"
 
 projects[empty_page][subdir] = "contrib"
 projects[empty_page][version] = "1.0"
@@ -96,6 +93,9 @@ projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 
 projects[recaptcha][subdir] = "contrib"
+projects[recaptcha][version] = "1.7"
+
+projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.9"
 
 projects[resp_img][subdir] = "contrib"
@@ -123,7 +123,7 @@ projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.18"
 
 projects[wysiwyg][subdir] = "contrib"
-projects[wysiwyg][version] = "2.1"
+projects[wysiwyg][version] = "2.2"
 
 ; Themes
 projects[omega][version] = "3.1"
@@ -134,7 +134,7 @@ projects [cm_theme][version] = "2.x-dev"
 
 ;Libraries
 libraries[ckeditor][download][type] = get
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1.1/ckeditor_4.0.1.1_standard.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.tar.gz"
 libraries[ckeditor][destination] = libraries
 libraries[ckeditor][directory_name] = ckeditor
 
@@ -146,4 +146,4 @@ libraries[tinymce][directory_name] = tinymce
 libraries[flexslider][download][type] = get
 libraries[flexslider][download][url] = "https://github.com/downloads/woothemes/FlexSlider/FlexSlider-1.8.zip"
 libraries[flexslider][destination] = libraries
-libraries[flexslider][directory_name] = flexslider-download
+libraries[flexslider][directory_name] = flexslider
