@@ -20,7 +20,7 @@ projects[cm_slideshow][subdir] = "contrib-cm"
 projects[cm_slideshow][version] = "2.0-alpha1"
 
 projects[om_crew_connect][subdir] = "contrib-cm"
-projects[om_crew_connect][version] = "2.0-beta4"
+projects[om_crew_connect][version] = "2.x-dev"
 
 ; Contrib Modules
 projects[backup_migrate][subdir] = "contrib"
@@ -36,10 +36,10 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.2"
 
 projects[captcha][subdir] = "contrib"
-projects[captcha][version] = "1.0-beta2"
+projects[captcha][version] = "1.0"
 
 projects[creativecommons][subdir] = "contrib"
-projects[creativecommons][version] = "1.x-alpha2"
+projects[creativecommons][version] = "2.x-dev"
 
 projects[empty_page][subdir] = "contrib"
 projects[empty_page][version] = "1.0"
@@ -96,9 +96,6 @@ projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 
 projects[recaptcha][subdir] = "contrib"
-projects[recaptcha][version] = "1.7"
-
-projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.9"
 
 projects[resp_img][subdir] = "contrib"
@@ -147,6 +144,6 @@ libraries[tinymce][destination] = libraries
 libraries[tinymce][directory_name] = tinymce
 
 libraries[flexslider][download][type] = get
-libraries[flexslider][download][url] = "https://github.com/downloads/woothemes/FlexSlider/FlexSlider-1.8.zip"
+libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/version/2.1.zip"
 libraries[flexslider][destination] = libraries
 libraries[flexslider][directory_name] = flexslider
