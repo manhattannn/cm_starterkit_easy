@@ -129,8 +129,8 @@ projects[wysiwyg][version] = "2.2"
 projects[omega][version] = "3.1"
 projects[cm_theme][version] = "1.0-beta2"
 
-projects [zen][version] = "5.1"
-projects [cm_theme][version] = "2.x-dev"
+projects[zen][version] = "5.1"
+projects[cm_theme][version] = "2.x-dev"
 
 ;Libraries
 libraries[ckeditor][download][type] = get
