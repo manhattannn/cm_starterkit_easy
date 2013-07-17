@@ -42,7 +42,7 @@ projects[empty_page][subdir] = "contrib"
 projects[empty_page][version] = "1.0"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.0"
+projects[entity][version] = "1.1"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.0-beta1"
@@ -51,7 +51,7 @@ projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "2.x-dev"
 
 projects[fitvids][subdir] = "contrib"
-projects[fitvids][version] = "1.9"
+projects[fitvids][version] = "1.12"
 
 projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "2.0-alpha1"
@@ -88,6 +88,9 @@ projects[pathauto][version] = "1.2"
 
 projects[pbcore][subdir] = "contrib"
 projects[pbcore][version] = "1.0-beta2"
+
+projects[picture][subdir] = "contrib"
+projects[picture][version] = "1.1"
 
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"

@@ -45,7 +45,7 @@ projects[empty_page][subdir] = "contrib"
 projects[empty_page][version] = "1.0"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.0"
+projects[entity][version] = "1.1"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.0-beta1"
@@ -54,13 +54,13 @@ projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "2.x-dev"
 
 projects[fitvids][subdir] = "contrib"
-projects[fitvids][version] = "1.9"
+projects[fitvids][version] = "1.12"
 
 projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "2.0-alpha1"
 
 projects[fontyourface][subdir] = "contrib"
-projects[fontyourface][version] = "2.7"
+projects[fontyourface][version] = "2.8"
 
 projects[headerimage][subdir] = "contrib"
 projects[headerimage][version] = "1.1"
@@ -127,8 +127,6 @@ projects[wysiwyg][version] = "2.2"
 
 ; Themes
 projects[omega][version] = "3.1"
-projects[cm_theme][version] = "1.0-beta2"
-
 projects[zen][version] = "5.1"
 projects[cm_theme][version] = "2.x-dev"
 
@@ -147,3 +145,8 @@ libraries[flexslider][download][type] = get
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/version/2.1.zip"
 libraries[flexslider][destination] = libraries
 libraries[flexslider][directory_name] = flexslider
+
+libraries[fitvids][download][type] = get
+libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
+libraries[fitvids][destination] = libraries
+libraries[fitvids][directory_name] = fitvids

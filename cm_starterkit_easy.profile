@@ -5,6 +5,35 @@
  */
 
 /**
+ * Implementation of hook_menu().
+ */
+function cm_starterkit_easy_menu() {
+  $items = array();
+
+  $items['admin/documentation'] = array(
+    'title' => 'Documentation',
+    'description' => 'Link to Documentation on Drupal.org',
+    'page callback' => 'cm_starterkit_easy_documentation',
+    'access arguments' => array('access administration pages'),
+    'type' => MENU_NORMAL_ITEM,
+    'weight' => 99,
+  );
+     
+  return $items;
+
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter() for install_configure_form().
+ *
+ * Allows the profile to alter the site configuration form.
+ */
+function cm_starterkit_easy_documentation() {
+  header("Location: https://drupal.org/documentation/build/community-media");
+  exit();
+}
+
+/**
  * Implements hook_form_FORM_ID_alter() for install_configure_form().
  *
  * Allows the profile to alter the site configuration form.
