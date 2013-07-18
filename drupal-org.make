@@ -81,6 +81,9 @@ projects[legal][version] = "1.x-dev"
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.0"
 
+projects[module_filter][subdir] = "contrib"
+projects[module_filter][version] = "1.7"
+
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc2"
 
