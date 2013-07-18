@@ -73,6 +73,7 @@ projects[imce][version] = "1.7"
 
 projects[imce_wysiwyg][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.0"
+projects[imce_wysiwyg][patch][1794930] = "https://drupal.org/files/imce_wysiwyg-access-issue-1825850-2.patch"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.3"
