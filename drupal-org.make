@@ -21,7 +21,7 @@ projects[om_crew_connect][version] = "2.x-dev"
 
 ; Contrib Modules
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.4"
+projects[backup_migrate][version] = "2.7"
 
 projects[block_class][subdir] = "contrib"
 projects[block_class][version] = "2.0"
@@ -36,7 +36,7 @@ projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.0"
 
 projects[creativecommons][subdir] = "contrib"
-projects[creativecommons][version] = "1.x-alpha2"
+projects[creativecommons][version] = "2.x-dev"
 
 projects[empty_page][subdir] = "contrib"
 projects[empty_page][version] = "1.0"
@@ -57,10 +57,10 @@ projects[flexslider][subdir] = "contrib"
 projects[flexslider][version] = "2.0-alpha1"
 
 projects[fontyourface][subdir] = "contrib"
-projects[fontyourface][version] = "2.7"
+projects[fontyourface][version] = "2.8"
 
 projects[headerimage][subdir] = "contrib"
-projects[headerimage][version] = "1.1"
+projects[headerimage][version] = "1.3"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.3"
@@ -93,9 +93,6 @@ projects[pathauto][version] = "1.2"
 projects[pbcore][subdir] = "contrib"
 projects[pbcore][version] = "1.0-beta2"
 
-projects[picture][subdir] = "contrib"
-projects[picture][version] = "1.1"
-
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 
@@ -112,19 +109,19 @@ projects[token][subdir] = "contrib"
 projects[token][version] = "1.4"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.6"
+projects[views][version] = "3.7"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.1"
 
 projects[views_send][subdir] = "contrib"
-projects[views_send][version] = "1.0-rc2"
+projects[views_send][version] = "1.0-rc3"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.0"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.18"
+projects[webform][version] = "3.19"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
@@ -149,3 +146,8 @@ libraries[flexslider][download][type] = get
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/version/2.1.zip"
 libraries[flexslider][destination] = libraries
 libraries[flexslider][directory_name] = flexslider
+
+libraries[fitvids][download][type] = get
+libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
+libraries[fitvids][destination] = libraries
+libraries[fitvids][directory_name] = fitvids

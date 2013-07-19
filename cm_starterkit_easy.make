@@ -24,7 +24,7 @@ projects[om_crew_connect][version] = "2.x-dev"
 
 ; Contrib Modules
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.4"
+projects[backup_migrate][version] = "2.7"
 
 projects[block_class][subdir] = "contrib"
 projects[block_class][version] = "2.0"
@@ -63,7 +63,7 @@ projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
 
 projects[headerimage][subdir] = "contrib"
-projects[headerimage][version] = "1.1"
+projects[headerimage][version] = "1.3"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.3"
@@ -112,19 +112,19 @@ projects[token][subdir] = "contrib"
 projects[token][version] = "1.4"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.6"
+projects[views][version] = "3.7"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.1"
 
 projects[views_send][subdir] = "contrib"
-projects[views_send][version] = "1.0-rc2"
+projects[views_send][version] = "1.0-rc3"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.0"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.18"
+projects[webform][version] = "3.19"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
