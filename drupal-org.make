@@ -93,14 +93,14 @@ projects[pathauto][version] = "1.2"
 projects[pbcore][subdir] = "contrib"
 projects[pbcore][version] = "1.0-beta2"
 
+projects[picture][subdir] = "contrib"
+projects[picture][version] = "1.1"
+
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.9"
-
-projects[resp_img][subdir] = "contrib"
-projects[resp_img][version] = "1.3"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -151,3 +151,46 @@ libraries[fitvids][download][type] = get
 libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
 libraries[fitvids][destination] = libraries
 libraries[fitvids][directory_name] = fitvids
+
+; ====== MEDIA RELATED MODULES FROM MODERATE =========
+
+; Community Media Modules
+projects[cm_show_vod][subdir] = "contrib-cm"
+projects[cm_show_vod][version] = "2.x-dev"
+
+; Contrib Modules
+projects[file_entity][subdir] = "contrib"
+projects[file_entity][version] = "2.x-dev"
+
+projects[media][subdir] = "contrib"
+projects[media][version] = "2.x-dev"
+
+projects[media_youtube][subdir] = "contrib"
+projects[media_youtube][version] = "2.0-rc2"
+
+projects[media_vimeo][subdir] = "contrib"
+projects[media_vimeo][version] = "2.x-dev"
+
+projects[media_bliptv][subdir] = "contrib"
+projects[media_bliptv][version] = "1.x-dev"
+
+projects[media_archive][subdir] = "contrib"
+projects[media_archive][version] = "1.x-dev"
+
+projects[media_cloudcast][subdir] = "contrib"
+projects[media_cloudcast][version] = "2.x-dev"
+
+; ===== NEW MODULES USED ON OKV =========
+
+projects[breakpoints][subdir] = "contrib"
+projects[breakpoints][version] = "1.1"
+
+projects[commentsblock][subdir] = "contrib"
+projects[commentsblock][version] = "2.2"
+
+projects[menu_expanded][subdir] = "contrib"
+projects[menu_expanded][version] = "2.2"
+
+
+
+
