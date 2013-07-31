@@ -154,3 +154,40 @@ function cm_starterkit_easy_update_status_alter(&$projects) {
     }
   }
 }
+
+// The cm_theme_logo block is added in the profile, because it can't be added in a theme
+// http://drupal.stackexchange.com/questions/24333/can-i-use-hook-block-info-in-a-theme
+
+/**
+ * Implements hook_block_info().
+ */
+function cm_starterkit_easy_block_info() {
+  $blocks['cmdrupal_credit'] = array(
+    'info' => t('CMDrupal Credit Block'), //The name that will appear in the block list.
+    'cache' => DRUPAL_CACHE_PER_ROLE, //Default
+  );
+  $blocks['cm_theme_logo'] = array(
+    'info' => t('Logo Block'), //The name that will appear in the block list.
+    'cache' => DRUPAL_CACHE_PER_ROLE, //Default
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ * 
+ * Prepares the contents of the block.
+ */
+function cm_starterkit_easy_block_view($delta = '') {
+  switch($delta){
+    case 'cmdrupal_credit':
+      $block['subject'] = NULL;
+      $block['content'] = l(t('Powered by CMDrupal: Built on Open Source, Sustained by Collaboration'), 'http://cmdrupal.org');
+    break;
+    case 'cm_theme_logo':
+      $block['subject'] = NULL;
+      $block['content'] = '<a href="/" title="' . t('Home') . '" rel="home" id="logo"><img src="' . theme_get_setting('logo') .'" alt="' . t('Home') .'" /></a>';
+    break;
+  }
+  return $block;
+}
