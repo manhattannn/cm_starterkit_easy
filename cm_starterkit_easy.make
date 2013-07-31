@@ -193,3 +193,20 @@ projects[commentsblock][version] = "2.2"
 
 projects[menu_expanded][subdir] = "contrib"
 projects[menu_expanded][version] = "2.2"
+
+; ===== FEEDS =========
+; These are more advanced, but I think they are required to 
+; really make the easy kit useful
+
+projects[cm_vod_feed][subdir] = "contrib-cm"
+projects[cm_vod_feed][version] = "2.0-beta1"
+
+projects[feeds][subdir] = "contrib"
+projects[feeds][version] = "2.x-dev"
+projects[feeds][patch][1033202] = "https://drupal.org/files/feeds_entity_processor-1033202-203.patch"
+
+projects[job_scheduler][subdir] = "contrib"
+projects[job_scheduler][version] = "2.0-alpha3"
+
+projects[feeds_media_internet_files][subdir] = "contrib-cm"
+projects[feeds_media_internet_files][version] = "2.x-dev"
