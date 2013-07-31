@@ -63,7 +63,7 @@ drupal_set_title(st('@drupal installation complete', array('@drupal' => drupal_i
   $output = '<p>' . st('Congratulations, you installed @drupal!', array('@drupal' => drupal_install_profile_distribution_name())) . '</p>';
   $output .= '<p>' . (isset($messages['error']) ? st('Review any messages above before <a href="@url">using the Community Media Checklist to start configuring your site</a>.', array('@url' => url('admin/reports/communitymedia-checklist'))) : st('Use the <a href="@url">Community Media Checklist</a> to start configuring your site.', array('@url' => url('admin/reports/communitymedia-checklist')))) . '</p>';   
     
-  variable_set('theme_default', 'cm_theme');
+  variable_set('theme_default', 'cm_theme_zen');
 
   // Disable the core theme.
   theme_disable(array('bartik'));

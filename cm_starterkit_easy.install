@@ -69,7 +69,7 @@ function cm_starterkit_easy_install() {
   filter_format_save($full_html_format);
 
   // Enable some the themes.
-  $default_theme = 'cm_theme';
+  $default_theme = 'cm_theme_zen';
   $admin_theme = 'seven';
   theme_enable(array($default_theme, $admin_theme));
   
