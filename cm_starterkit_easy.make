@@ -17,7 +17,7 @@ projects[cm_show][subdir] = "contrib-cm"
 projects[cm_show][version] = "1.x-dev"
 
 projects[cm_slideshow][subdir] = "contrib-cm"
-projects[cm_slideshow][version] = "2.0-alpha1"
+projects[cm_slideshow][version] = "2.x-dev"
 
 projects[om_crew_connect][subdir] = "contrib-cm"
 projects[om_crew_connect][version] = "2.x-dev"
