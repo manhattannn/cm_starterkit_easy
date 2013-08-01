@@ -102,6 +102,9 @@ projects[picture][version] = "1.1"
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 
+projects[profile_switcher][subdir] = "contrib"
+projects[profile_switcher][version] = "1.0-alpha1"
+
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.9"
 
