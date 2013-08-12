@@ -33,7 +33,7 @@ projects[css_injector][subdir] = "contrib"
 projects[css_injector][version] = "1.8"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.2"
+projects[ctools][version] = "1.3"
 
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.0"
@@ -48,7 +48,7 @@ projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.1"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0-beta1"
+projects[features][version] = "2.0-rc2"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "2.x-dev"
@@ -85,7 +85,7 @@ projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.1"
 
 projects[module_filter][subdir] = "contrib"
-projects[module_filter][version] = "1.7"
+projects[module_filter][version] = "1.8"
 
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc2"
@@ -112,7 +112,7 @@ projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.4"
+projects[token][version] = "1.5"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.7"
@@ -134,7 +134,7 @@ projects[wysiwyg][version] = "2.2"
 
 ; Themes
 projects[omega][version] = "3.1"
-projects[zen][version] = "5.1"
+projects[zen][version] = "5.2"
 projects[cm_theme][version] = "2.x-dev"
 
 ;Libraries
@@ -172,7 +172,7 @@ projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-alpha1"
 
 projects[media_youtube][subdir] = "contrib"
-projects[media_youtube][version] = "2.0-rc2"
+projects[media_youtube][version] = "2.0-rc3"
 
 projects[media_vimeo][subdir] = "contrib"
 projects[media_vimeo][version] = "2.x-dev"
@@ -213,3 +213,6 @@ projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[feeds_media_internet_files][subdir] = "contrib-cm"
 projects[feeds_media_internet_files][version] = "2.x-dev"
+
+projects[feeds_mediarss][subdir] = "contrib"
+projects[feeds_mediarss][version] = "2.x-dev"
