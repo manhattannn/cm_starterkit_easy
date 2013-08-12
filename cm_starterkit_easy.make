@@ -1,8 +1,8 @@
-core = 7.22
+core = 7.23
 api = 2
 
 ; Drupal Core
-projects[drupal][version] = "7.22"
+projects[drupal][version] = "7.23"
 
 ; ====== EASY =========
 
@@ -166,10 +166,10 @@ projects[cm_show_vod][version] = "2.x-dev"
 
 ; Contrib Modules
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.x-dev"
+projects[file_entity][version] = "2.0-alpha1"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.x-dev"
+projects[media][version] = "2.0-alpha1"
 
 projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "2.0-rc2"
