@@ -91,7 +91,7 @@ function cm_starterkit_easy_install() {
       'delta' => 'form',
       'theme' => $default_theme,
       'status' => 1,
-      'weight' => 10,
+      'weight' => 8,
       'region' => 'navigation',
       'pages' => '',
       'cache' => -1,
