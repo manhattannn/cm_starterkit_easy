@@ -131,7 +131,7 @@ projects[wysiwyg][version] = "2.2"
 
 ; Themes
 projects[omega][version] = "3.1"
-projects[zen][version] = "5.2"
+projects[zen][version] = "5.3"
 projects[cm_theme][version] = "2.x-dev"
 
 ;Libraries
