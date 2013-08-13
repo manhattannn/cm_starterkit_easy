@@ -170,6 +170,7 @@ projects[media][version] = "2.0-alpha1"
 
 projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "2.0-rc3"
+projects[media_youtube][patch][2062695] = "https://drupal.org/files/2062695-default_image_styles.patch"
 
 projects[media_vimeo][subdir] = "contrib"
 projects[media_vimeo][version] = "2.x-dev"
