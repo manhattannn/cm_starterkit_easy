@@ -69,7 +69,7 @@ function cm_starterkit_easy_install() {
   filter_format_save($full_html_format);
 
   // Enable some the themes.
-  $default_theme = 'cm_theme';
+  $default_theme = 'cm_theme_zen';
   $admin_theme = 'seven';
   theme_enable(array($default_theme, $admin_theme));
   
@@ -91,8 +91,8 @@ function cm_starterkit_easy_install() {
       'delta' => 'form',
       'theme' => $default_theme,
       'status' => 1,
-      'weight' => -1,
-      'region' => 'header_second',
+      'weight' => 8,
+      'region' => 'navigation',
       'pages' => '',
       'cache' => -1,
     ),
@@ -123,6 +123,26 @@ function cm_starterkit_easy_install() {
       'status' => 1,
       'weight' => 0,
       'region' => 'content',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'cm_starterkit_easy',
+      'delta' => 'cm_theme_logo',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => 9,
+      'region' => 'navigation',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'cm_starterkit_easy',
+      'delta' => 'cmdrupal_credit',
+      'theme' => $default_theme,
+      'status' => 1,
+      'weight' => -9,
+      'region' => 'footer',
       'pages' => '',
       'cache' => -1,
     ),

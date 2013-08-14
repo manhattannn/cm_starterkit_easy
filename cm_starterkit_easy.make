@@ -1,8 +1,8 @@
-core = 7.22
+core = 7.23
 api = 2
 
 ; Drupal Core
-projects[drupal][version] = "7.22"
+projects[drupal][version] = "7.23"
 
 ; ====== EASY =========
 
@@ -17,14 +17,14 @@ projects[cm_show][subdir] = "contrib-cm"
 projects[cm_show][version] = "1.x-dev"
 
 projects[cm_slideshow][subdir] = "contrib-cm"
-projects[cm_slideshow][version] = "2.0-alpha1"
+projects[cm_slideshow][version] = "2.x-dev"
 
 projects[om_crew_connect][subdir] = "contrib-cm"
 projects[om_crew_connect][version] = "2.x-dev"
 
 ; Contrib Modules
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.4"
+projects[backup_migrate][version] = "2.7"
 
 projects[block_class][subdir] = "contrib"
 projects[block_class][version] = "2.0"
@@ -33,7 +33,7 @@ projects[css_injector][subdir] = "contrib"
 projects[css_injector][version] = "1.8"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.2"
+projects[ctools][version] = "1.3"
 
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.0"
@@ -51,7 +51,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.0"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0-beta1"
+projects[features][version] = "2.0-rc2"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "2.x-dev"
@@ -66,7 +66,7 @@ projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
 
 projects[headerimage][subdir] = "contrib"
-projects[headerimage][version] = "1.1"
+projects[headerimage][version] = "1.3"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.3"
@@ -76,6 +76,7 @@ projects[imce][version] = "1.7"
 
 projects[imce_wysiwyg][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.0"
+projects[imce_wysiwyg][patch][1794930] = "https://drupal.org/files/imce_wysiwyg-access-issue-1825850-2.patch"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.3"
@@ -84,10 +85,10 @@ projects[legal][subdir] = "contrib"
 projects[legal][version] = "1.x-dev"
 
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "2.0"
+projects[libraries][version] = "2.1"
 
 projects[module_filter][subdir] = "contrib"
-projects[module_filter][version] = "1.7"
+projects[module_filter][version] = "1.8"
 
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc2"
@@ -98,42 +99,45 @@ projects[pathauto][version] = "1.2"
 projects[pbcore][subdir] = "contrib"
 projects[pbcore][version] = "1.0-beta2"
 
+projects[picture][subdir] = "contrib"
+projects[picture][version] = "1.1"
+
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 
+projects[profile_switcher][subdir] = "contrib"
+projects[profile_switcher][version] = "1.0-alpha1"
+
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.9"
-
-projects[resp_img][subdir] = "contrib"
-projects[resp_img][version] = "1.3"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.4"
+projects[token][version] = "1.5"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.6"
+projects[views][version] = "3.7"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.1"
 
 projects[views_send][subdir] = "contrib"
-projects[views_send][version] = "1.0-rc2"
+projects[views_send][version] = "1.0-rc3"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.0"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.18"
+projects[webform][version] = "3.19"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
 
 ; Themes
 projects[omega][version] = "3.1"
-projects[zen][version] = "5.1"
+projects[zen][version] = "5.3"
 projects[cm_theme][version] = "2.x-dev"
 
 ;Libraries
@@ -156,3 +160,63 @@ libraries[fitvids][download][type] = get
 libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
 libraries[fitvids][destination] = libraries
 libraries[fitvids][directory_name] = fitvids
+
+; ====== MEDIA RELATED MODULES FROM MODERATE =========
+
+; Community Media Modules
+projects[cm_show_vod][subdir] = "contrib-cm"
+projects[cm_show_vod][version] = "2.x-dev"
+
+; Contrib Modules
+projects[file_entity][subdir] = "contrib"
+projects[file_entity][version] = "2.0-alpha1"
+
+projects[media][subdir] = "contrib"
+projects[media][version] = "2.0-alpha1"
+
+projects[media_youtube][subdir] = "contrib"
+projects[media_youtube][version] = "2.0-rc3"
+projects[media_youtube][patch][2062695] = "https://drupal.org/files/2062695-default_image_styles.patch"
+
+projects[media_vimeo][subdir] = "contrib"
+projects[media_vimeo][version] = "2.x-dev"
+
+projects[media_bliptv][subdir] = "contrib"
+projects[media_bliptv][version] = "1.x-dev"
+
+projects[media_archive][subdir] = "contrib"
+projects[media_archive][version] = "1.x-dev"
+
+projects[media_cloudcast][subdir] = "contrib"
+projects[media_cloudcast][version] = "2.x-dev"
+
+; ===== NEW MODULES USED ON OKV =========
+
+projects[breakpoints][subdir] = "contrib"
+projects[breakpoints][version] = "1.1"
+
+projects[commentsblock][subdir] = "contrib"
+projects[commentsblock][version] = "2.2"
+
+projects[menu_expanded][subdir] = "contrib"
+projects[menu_expanded][version] = "2.2"
+
+; ===== FEEDS =========
+; These are more advanced, but I think they are required to 
+; really make the easy kit useful
+
+projects[cm_vod_feed][subdir] = "contrib-cm"
+projects[cm_vod_feed][version] = "2.0-beta1"
+
+projects[feeds][subdir] = "contrib"
+projects[feeds][version] = "2.x-dev"
+projects[feeds][patch][1033202] = "https://drupal.org/files/feeds_entity_processor-1033202-203.patch"
+
+projects[job_scheduler][subdir] = "contrib"
+projects[job_scheduler][version] = "2.0-alpha3"
+
+projects[feeds_media_internet_files][subdir] = "contrib-cm"
+projects[feeds_media_internet_files][version] = "2.x-dev"
+
+projects[feeds_mediarss][subdir] = "contrib"
+projects[feeds_mediarss][version] = "2.x-dev"

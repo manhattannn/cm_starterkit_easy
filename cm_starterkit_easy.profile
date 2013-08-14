@@ -63,7 +63,7 @@ drupal_set_title(st('@drupal installation complete', array('@drupal' => drupal_i
   $output = '<p>' . st('Congratulations, you installed @drupal!', array('@drupal' => drupal_install_profile_distribution_name())) . '</p>';
   $output .= '<p>' . (isset($messages['error']) ? st('Review any messages above before <a href="@url">using the Community Media Checklist to start configuring your site</a>.', array('@url' => url('admin/reports/communitymedia-checklist'))) : st('Use the <a href="@url">Community Media Checklist</a> to start configuring your site.', array('@url' => url('admin/reports/communitymedia-checklist')))) . '</p>';   
     
-  variable_set('theme_default', 'cm_theme');
+  variable_set('theme_default', 'cm_theme_zen');
 
   // Disable the core theme.
   theme_disable(array('bartik'));
@@ -153,4 +153,41 @@ function cm_starterkit_easy_update_status_alter(&$projects) {
       }
     }
   }
+}
+
+// The cm_theme_logo block is added in the profile, because it can't be added in a theme
+// http://drupal.stackexchange.com/questions/24333/can-i-use-hook-block-info-in-a-theme
+
+/**
+ * Implements hook_block_info().
+ */
+function cm_starterkit_easy_block_info() {
+  $blocks['cmdrupal_credit'] = array(
+    'info' => t('CMDrupal Credit Block'), //The name that will appear in the block list.
+    'cache' => DRUPAL_CACHE_PER_ROLE, //Default
+  );
+  $blocks['cm_theme_logo'] = array(
+    'info' => t('Logo Block'), //The name that will appear in the block list.
+    'cache' => DRUPAL_CACHE_PER_ROLE, //Default
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ * 
+ * Prepares the contents of the block.
+ */
+function cm_starterkit_easy_block_view($delta = '') {
+  switch($delta){
+    case 'cmdrupal_credit':
+      $block['subject'] = NULL;
+      $block['content'] = l(t('Powered by CMDrupal: Built on Open Source, Sustained by Collaboration'), 'http://cmdrupal.org');
+    break;
+    case 'cm_theme_logo':
+      $block['subject'] = NULL;
+      $block['content'] = '<a href="/" title="' . t('Home') . '" rel="home" id="logo"><img src="' . theme_get_setting('logo') .'" alt="' . t('Home') .'" /></a>';
+    break;
+  }
+  return $block;
 }
