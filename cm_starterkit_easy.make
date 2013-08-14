@@ -45,7 +45,10 @@ projects[empty_page][subdir] = "contrib"
 projects[empty_page][version] = "1.0"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.1"
+projects[entity][version] = "1.1"  
+
+projects[entityreference][subdir] = "contrib"
+projects[entityreference][version] = "1.0"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.0-beta1"
