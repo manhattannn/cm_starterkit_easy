@@ -60,7 +60,10 @@ projects[fitvids][subdir] = "contrib"
 projects[fitvids][version] = "1.12"
 
 projects[flexslider][subdir] = "contrib"
-projects[flexslider][version] = "2.0-alpha1"
+projects[flexslider][version] = "2.0-alpha1"  
+
+projects[flexslider_views_slideshow][subdir] = "contrib"
+projects[flexslider_views_slideshow][version] = "2.x-dev" 
 
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
