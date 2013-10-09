@@ -103,7 +103,7 @@ projects[pbcore][subdir] = "contrib"
 projects[pbcore][version] = "1.0-beta2"
 
 projects[picture][subdir] = "contrib"
-projects[picture][version] = "1.1"
+projects[picture][version] = "1.x-dev"
 
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
