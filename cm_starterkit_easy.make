@@ -27,7 +27,7 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.7"
 
 projects[block_class][subdir] = "contrib"
-projects[block_class][version] = "2.0"
+projects[block_class][version] = "2.1"
 
 projects[css_injector][subdir] = "contrib"
 projects[css_injector][version] = "1.8"
@@ -45,22 +45,22 @@ projects[empty_page][subdir] = "contrib"
 projects[empty_page][version] = "1.0"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.1"  
+projects[entity][version] = "1.2"  
 
 projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.x-dev"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0-rc2"
+projects[features][version] = "2.0-rc5"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.3"
 
 projects[fitvids][subdir] = "contrib"
-projects[fitvids][version] = "1.12"
+projects[fitvids][version] = "1.14"
 
 projects[flexslider][subdir] = "contrib"
-projects[flexslider][version] = "2.0-alpha1"  
+projects[flexslider][version] = "2.0-alpha3"  
 
 projects[flexslider_views_slideshow][subdir] = "contrib"
 projects[flexslider_views_slideshow][version] = "2.x-dev" 
@@ -112,7 +112,7 @@ projects[profile_switcher][subdir] = "contrib"
 projects[profile_switcher][version] = "1.0-alpha1"
 
 projects[recaptcha][subdir] = "contrib"
-projects[recaptcha][version] = "1.9"
+projects[recaptcha][version] = "1.10"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -140,7 +140,7 @@ projects[wysiwyg][version] = "2.2"
 
 ; Themes
 projects[omega][version] = "3.1"
-projects[zen][version] = "5.3"
+projects[zen][version] = "5.4"
 projects[cm_theme][version] = "2.x-dev"
 
 ;Libraries
@@ -172,10 +172,10 @@ projects[cm_show_vod][version] = "2.x-dev"
 
 ; Contrib Modules
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-alpha1"
+projects[file_entity][version] = "2.0-alpha2"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-alpha1"
+projects[media][version] = "2.0-alpha2"
 
 projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "2.0-rc3"
