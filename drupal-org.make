@@ -51,7 +51,7 @@ projects[features][subdir] = "contrib"
 projects[features][version] = "2.0-rc2"
 
 projects[field_group][subdir] = "contrib"
-projects[field_group][version] = "2.x-dev"
+projects[field_group][version] = "1.3"
 
 projects[fitvids][subdir] = "contrib"
 projects[fitvids][version] = "1.12"
