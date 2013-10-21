@@ -69,7 +69,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.x-dev"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0-rc5"
+projects[features][version] = "2.0"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.x-dev"
@@ -97,10 +97,10 @@ projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
 
 projects[headerimage][subdir] = "contrib"
-projects[headerimage][version] = "1.3"
+projects[headerimage][version] = "1.4"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "1.3"
+projects[google_analytics][version] = "1.4"
 
 projects[imce][subdir] = "contrib"
 projects[imce][version] = "1.7"
@@ -216,11 +216,3 @@ libraries[fitvids][download][type] = get
 libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
 libraries[fitvids][destination] = libraries
 libraries[fitvids][directory_name] = fitvids
-
-
-
-
-
-
-
-
