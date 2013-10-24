@@ -99,6 +99,10 @@ projects[fontyourface][version] = "2.8"
 projects[headerimage][subdir] = "contrib"
 projects[headerimage][version] = "1.4"
 
+projects[hms_field][subdir] = "contrib"
+projects[hms_field][version] = "2.x-dev"
+projects[hms_field][patch][2119623] = "https://drupal.org/files/2119623-hidden_field_empty_error.patch"
+
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.4"
 
