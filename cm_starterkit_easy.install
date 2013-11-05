@@ -332,7 +332,7 @@ function cm_starterkit_easy_install() {
   // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
   $admin_role->name = 'administrator';
-  $admin_role->weight = 2;
+  $admin_role->weight = 99;
   user_role_save($admin_role);
   user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
   // Set this as the administrator role.
@@ -342,7 +342,34 @@ function cm_starterkit_easy_install() {
   db_insert('users_roles')
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
-
+  
+  // Community Media Specific Roles are Permissions
+  $member_role = new stdClass();
+  $member_role->name = 'member';
+  $member_role->weight = 2;
+  user_role_save($member_role);
+  
+  $staff_role = new stdClass();
+  $staff_role->name = 'staff';
+  $staff_role->weight = 3;
+  user_role_save($staff_role);
+  
+  user_role_grant_permissions($member_role->rid, array(
+    'access content', 
+    'access comments', 
+    'post comments', 
+    'skip comment approval', 
+    $filtered_html_permission)
+  );
+  
+  user_role_grant_permissions($staff_role->rid, array(
+    'access content', 
+    'access comments', 
+    'post comments', 
+    'skip comment approval', 
+    $filtered_html_permission)
+  );
+  
   // Create a Home link in the main menu.
   $item = array(
     'link_title' => st('Home'),
