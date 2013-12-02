@@ -30,7 +30,7 @@ projects[om_crew_connect][version] = "2.x-dev"
 
 ; Contrib Modules
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.7"
+projects[backup_migrate][version] = "2.8"
 
 projects[block_class][subdir] = "contrib"
 projects[block_class][version] = "2.1"
@@ -79,7 +79,7 @@ projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.3"
 
 projects[file_entity][subdir] = "contrib"
-projects[file_entity][version] = "2.0-alpha2"
+projects[file_entity][version] = "2.0-alpha3"
 
 projects[fitvids][subdir] = "contrib"
 projects[fitvids][version] = "1.14"
@@ -123,10 +123,10 @@ projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.1"
 
 projects[media][subdir] = "contrib"
-projects[media][version] = "2.0-alpha2"
+projects[media][version] = "2.0-alpha3"
 
 projects[media_youtube][subdir] = "contrib"
-projects[media_youtube][version] = "2.0-rc3"
+projects[media_youtube][version] = "2.0-rc4"
 projects[media_youtube][patch][2062695] = "https://drupal.org/files/2062695-default_image_styles.patch"
 
 projects[media_vimeo][subdir] = "contrib"
@@ -163,7 +163,7 @@ projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 
 projects[profile_switcher][subdir] = "contrib"
-projects[profile_switcher][version] = "1.0-alpha1"
+projects[profile_switcher][version] = "1.0-beta1"
 
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.10"
@@ -184,7 +184,7 @@ projects[views_send][subdir] = "contrib"
 projects[views_send][version] = "1.0-rc3"
 
 projects[views_slideshow][subdir] = "contrib"
-projects[views_slideshow][version] = "3.0"
+projects[views_slideshow][version] = "3.1"
 
 projects[webform][subdir] = "contrib"
 projects[webform][version] = "3.19"
