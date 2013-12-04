@@ -70,7 +70,7 @@ projects[features][version] = "2.0"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.x-dev"
-projects[feeds][patch][1033202] = "https://drupal.org/files/feeds_entity_processor-1033202-203.patch"
+projects[feeds][patch][1033202] = "http://drupal.org/files/feeds_entity_processor-1033202-203.patch"
 
 projects[feeds_mediarss][subdir] = "contrib"
 projects[feeds_mediarss][version] = "2.x-dev"
@@ -98,7 +98,7 @@ projects[headerimage][version] = "1.4"
 
 projects[hms_field][subdir] = "contrib"
 projects[hms_field][version] = "2.x-dev"
-projects[hms_field][patch][2119623] = "https://drupal.org/files/2119623-hidden_field_empty_error.patch"
+projects[hms_field][patch][2119623] = "http://drupal.org/files/2119623-hidden_field_empty_error.patch"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.4"
@@ -108,7 +108,7 @@ projects[imce][version] = "1.7"
 
 projects[imce_wysiwyg][subdir] = "contrib"
 projects[imce_wysiwyg][version] = "1.0"
-projects[imce_wysiwyg][patch][1794930] = "https://drupal.org/files/imce_wysiwyg-access-issue-1825850-2.patch"
+projects[imce_wysiwyg][patch][1794930] = "http://drupal.org/files/imce_wysiwyg-access-issue-1825850-2.patch"
 
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
@@ -127,7 +127,7 @@ projects[media][version] = "2.0-alpha3"
 
 projects[media_youtube][subdir] = "contrib"
 projects[media_youtube][version] = "2.0-rc4"
-projects[media_youtube][patch][2062695] = "https://drupal.org/files/2062695-default_image_styles.patch"
+projects[media_youtube][patch][2062695] = "http://drupal.org/files/2062695-default_image_styles.patch"
 
 projects[media_vimeo][subdir] = "contrib"
 projects[media_vimeo][version] = "2.x-dev"
