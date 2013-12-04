@@ -28,7 +28,7 @@ projects[cm_vod_feed][version] = "2.0-beta1"
 projects[om_crew_connect][subdir] = "contrib-cm"
 projects[om_crew_connect][version] = "2.x-dev"
 
-; Contrib Modules
+; Contribb Modules
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.8"
 
