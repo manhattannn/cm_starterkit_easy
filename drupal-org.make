@@ -3,7 +3,7 @@ core = 7.24
 
 ; ====== EASY =========
 
-; Community Media Modules
+;  Community Media Modules
 projects[cm_airing][subdir] = "contrib-cm"
 projects[cm_airing][version] = "3.x-alpha1"
 
