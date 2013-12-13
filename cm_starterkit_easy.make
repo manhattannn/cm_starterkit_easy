@@ -4,7 +4,7 @@ api = 2
 ; Drupal Core
 projects[drupal][version] = "7.24"
 
-; ====== EASY =========
+; ====== EASY ==========
 
 ; Community Media Modules
 projects[cm_airing][subdir] = "contrib-cm"
@@ -58,6 +58,9 @@ projects[creativecommons][version] = "2.x-dev"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.6"
+
+projects[draggable_captcha][subdir] = "contrib"
+projects[draggable_captcha][version] = "1.2"
 
 projects[empty_page][subdir] = "contrib"
 projects[empty_page][version] = "1.0"
@@ -166,9 +169,6 @@ projects[profile2][version] = "1.3"
 
 projects[profile_switcher][subdir] = "contrib"
 projects[profile_switcher][version] = "1.0-beta1"
-
-projects[recaptcha][subdir] = "contrib"
-projects[recaptcha][version] = "1.10"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
