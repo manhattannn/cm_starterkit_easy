@@ -4,7 +4,7 @@ api = 2
 ; Drupal Core
 projects[drupal][version] = "7.24"
 
-; ====== EASY =========
+; ====== EASY ==========
 
 ; Community Media Modules
 projects[cm_airing][subdir] = "contrib-cm"

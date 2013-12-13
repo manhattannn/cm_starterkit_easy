@@ -1,7 +1,7 @@
 api = 2
 core = 7.24
 
-; ====== EASY =========
+; ====== EASY ==========
 
 ; Community Media Modules
 projects[cm_airing][subdir] = "contrib-cm"
