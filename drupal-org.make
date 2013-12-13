@@ -152,6 +152,9 @@ projects[module_filter][version] = "1.8"
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc2"
 
+projects[options_element][subdir] = "contrib"
+projects[options_element][version] = "1.10"
+
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 
@@ -186,7 +189,7 @@ projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.1"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.19"
+projects[webform][version] = "4.0-beta1"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"

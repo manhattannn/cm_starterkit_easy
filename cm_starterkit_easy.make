@@ -128,6 +128,9 @@ projects[legal][version] = "1.x-dev"
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.1"
 
+projects[options_element][subdir] = "contrib"
+projects[options_element][version] = "1.10"
+
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-alpha3"
 
@@ -189,7 +192,7 @@ projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.1"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.19"
+projects[webform][version] = "4.0-beta1"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.2"
