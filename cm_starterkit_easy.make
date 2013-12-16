@@ -173,6 +173,9 @@ projects[picture][version] = "1.x-dev"
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 
+projects[profile_status_check][subdir] = "contrib"
+projects[profile_status_check][version] = "1.0-beta1"
+
 projects[profile_switcher][subdir] = "contrib"
 projects[profile_switcher][version] = "1.0-beta1"
 
