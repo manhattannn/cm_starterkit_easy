@@ -390,4 +390,6 @@ function cm_starterkit_easy_install() {
     
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
+  variable_set('fullcalendar_path', drupal_get_path('profile', 'cm_starterkit_easy') . '/libraries/fullcalendar-download/fullcalendar');
+
 }
