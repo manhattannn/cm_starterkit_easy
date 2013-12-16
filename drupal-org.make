@@ -96,6 +96,9 @@ projects[flexslider_views_slideshow][version] = "2.x-dev"
 projects[fontyourface][subdir] = "contrib"
 projects[fontyourface][version] = "2.8"
 
+projects[fullcalendar][subdir] = "contrib"
+projects[fullcalendar][version] = "2.0"
+
 projects[headerimage][subdir] = "contrib"
 projects[headerimage][version] = "1.4"
 
@@ -169,6 +172,9 @@ projects[profile2][version] = "1.3"
 
 projects[profile_switcher][subdir] = "contrib"
 projects[profile_switcher][version] = "1.0-beta1"
+
+projects[recaptcha][subdir] = "contrib"
+projects[recaptcha][version] = "1.10"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
