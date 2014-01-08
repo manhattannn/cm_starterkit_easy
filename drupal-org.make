@@ -1,5 +1,5 @@
 api = 2
-core = 7.24
+core = 7.25
 
 ; ====== EASY ==========
 
@@ -63,7 +63,7 @@ projects[empty_page][subdir] = "contrib"
 projects[empty_page][version] = "1.0"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.2"  
+projects[entity][version] = "1.3"  
 
 projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.x-dev"
@@ -228,3 +228,9 @@ libraries[fitvids][download][type] = get
 libraries[fitvids][download][url] = "https://raw.github.com/davatron5000/FitVids.js/master/jquery.fitvids.js"
 libraries[fitvids][destination] = libraries
 libraries[fitvids][directory_name] = fitvids
+
+libraries[fullcalendar][download][type] = get
+libraries[fullcalendar][download][url] = "http://arshaw.com/fullcalendar/downloads/fullcalendar-1.5.3.zip"
+libraries[fullcalendar][destination] = libraries
+libraries[fullcalendar][directory_name] = fullcalendar-download
+

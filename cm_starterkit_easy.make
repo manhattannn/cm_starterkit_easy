@@ -1,8 +1,8 @@
-core = 7.24
+core = 7.25
 api = 2
 
 ; Drupal Core
-projects[drupal][version] = "7.24"
+projects[drupal][version] = "7.25"
 
 ; ====== EASY ==========
 
@@ -66,7 +66,7 @@ projects[empty_page][subdir] = "contrib"
 projects[empty_page][version] = "1.0"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.2"  
+projects[entity][version] = "1.3"  
 
 projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.x-dev"
