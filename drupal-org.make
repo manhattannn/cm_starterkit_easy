@@ -1,5 +1,5 @@
 api = 2
-core = 7.25
+core = 7.26
 
 ; ====== EASY ==========
 
@@ -73,10 +73,12 @@ projects[features][version] = "2.0"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.x-dev"
-projects[feeds][patch][1033202] = "http://drupal.org/files/feeds_entity_processor-1033202-203.patch"
 
 projects[feeds_mediarss][subdir] = "contrib"
 projects[feeds_mediarss][version] = "2.x-dev"
+
+projects[feeds_media_internet_files][subdir] = "contrib"
+projects[feeds_media_internet_files][version] = "1.x-dev"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.3"
@@ -144,7 +146,7 @@ projects[media_archive][subdir] = "contrib"
 projects[media_archive][version] = "1.x-dev"
 
 projects[media_cloudcast][subdir] = "contrib"
-projects[media_cloudcast][version] = "2.x-dev"
+projects[media_cloudcast][version] = "2.0-beta1"
 
 projects[menu_expanded][subdir] = "contrib"
 projects[menu_expanded][version] = "2.2"

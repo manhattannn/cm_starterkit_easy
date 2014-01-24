@@ -1,8 +1,8 @@
-core = 7.25
+core = 7.26
 api = 2
 
 ; Drupal Core
-projects[drupal][version] = "7.25"
+projects[drupal][version] = "7.26"
 
 ; ====== EASY ==========
 
@@ -76,7 +76,6 @@ projects[features][version] = "2.0"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.x-dev"
-projects[feeds][patch][1033202] = "https://drupal.org/files/feeds_entity_processor-1033202-203.patch"
 
 projects[feeds_mediarss][subdir] = "contrib"
 projects[feeds_mediarss][version] = "2.x-dev"
@@ -150,7 +149,7 @@ projects[media_archive][subdir] = "contrib"
 projects[media_archive][version] = "1.x-dev"
 
 projects[media_cloudcast][subdir] = "contrib"
-projects[media_cloudcast][version] = "2.x-dev"
+projects[media_cloudcast][version] = "2.0-beta1"
 
 projects[menu_expanded][subdir] = "contrib"
 projects[menu_expanded][version] = "2.2"

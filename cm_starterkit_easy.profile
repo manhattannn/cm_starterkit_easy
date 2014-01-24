@@ -125,14 +125,17 @@ function cm_starterkit_easy_update_status_alter(&$projects) {
     UPDATE_REVOKED,
     UPDATE_NOT_SUPPORTED,
   );
-
   $make_filepath = drupal_get_path('module', 'cm_starterkit_easy') . '/drupal-org.make';
   if (!file_exists($make_filepath)) {
     return;
   }
-
   $make_info = drupal_parse_info_file($make_filepath);
   foreach ($projects as $project_name => $project_info) {
+    // Never unset the drupal project to avoid hitting an error with
+    // _update_requirement_check(). See http://drupal.org/node/1875386.
+    if ($project_name == 'drupal') {
+      continue;
+    }
     // Hide cm_ projects, they have no update status of their own.
     //if (strpos($project_name, 'cm_') !== FALSE) {
       //unset($projects[$project_name]);
@@ -153,7 +156,6 @@ function cm_starterkit_easy_update_status_alter(&$projects) {
       }
     }
   }
-}
 
 // The cm_theme_logo block is added in the profile, because it can't be added in a theme
 // http://drupal.stackexchange.com/questions/24333/can-i-use-hook-block-info-in-a-theme
