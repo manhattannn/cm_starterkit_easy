@@ -78,7 +78,10 @@ projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.x-dev"
 
 projects[feeds_mediarss][subdir] = "contrib"
-projects[feeds_mediarss][version] = "2.x-dev"
+projects[feeds_mediarss][version] = "1.x-dev"
+
+projects[feeds_media_internet_files][subdir] = "contrib"
+projects[feeds_media_internet_files][version] = "1.x-dev"
 
 projects[field_group][subdir] = "contrib"
 projects[field_group][version] = "1.3"
@@ -105,7 +108,7 @@ projects[headerimage][subdir] = "contrib"
 projects[headerimage][version] = "1.4"
 
 projects[hms_field][subdir] = "contrib"
-projects[hms_field][version] = "2.x-dev"
+projects[hms_field][version] = "1.x-dev"
 projects[hms_field][patch][2119623] = "https://drupal.org/files/2119623-hidden_field_empty_error.patch"
 
 projects[google_analytics][subdir] = "contrib"
@@ -152,7 +155,7 @@ projects[media_cloudcast][subdir] = "contrib"
 projects[media_cloudcast][version] = "2.0-beta1"
 
 projects[menu_expanded][subdir] = "contrib"
-projects[menu_expanded][version] = "2.2"
+projects[menu_expanded][version] = "1.0-beta1"
 
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "1.8"
