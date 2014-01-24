@@ -156,6 +156,7 @@ function cm_starterkit_easy_update_status_alter(&$projects) {
       }
     }
   }
+}
 
 // The cm_theme_logo block is added in the profile, because it can't be added in a theme
 // http://drupal.stackexchange.com/questions/24333/can-i-use-hook-block-info-in-a-theme
