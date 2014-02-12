@@ -41,5 +41,6 @@ dependencies[] = pathauto
 dependencies[] = module_filter
 dependencies[] = wysiwyg
 dependencies[] = fullcalendar
+dependencies[] = updates
 
 files[] = cm_starterkit_easy.profile
