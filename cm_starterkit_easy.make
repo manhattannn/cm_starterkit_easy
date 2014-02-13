@@ -41,6 +41,9 @@ projects[block_class][version] = "2.1"
 projects[breakpoints][subdir] = "contrib"
 projects[breakpoints][version] = "1.1"
 
+projects[colors][subdir] = "contrib"
+projects[colors][version] = "1.0-rc1"
+
 projects[commentsblock][subdir] = "contrib"
 projects[commentsblock][version] = "2.2"
 
