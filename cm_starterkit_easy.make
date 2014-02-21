@@ -136,6 +136,9 @@ projects[legal][version] = "1.x-dev"
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.1"
 
+projects[options_element][subdir] = "office_hours"
+projects[options_element][version] = "1.3"
+
 projects[options_element][subdir] = "contrib"
 projects[options_element][version] = "1.10"
 

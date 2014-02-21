@@ -160,6 +160,9 @@ projects[module_filter][version] = "1.8"
 projects[menu_attributes][subdir] = "contrib"
 projects[menu_attributes][version] = "1.0-rc2"
 
+projects[options_element][subdir] = "office_hours"
+projects[options_element][version] = "1.3"
+
 projects[options_element][subdir] = "contrib"
 projects[options_element][version] = "1.10"
 
