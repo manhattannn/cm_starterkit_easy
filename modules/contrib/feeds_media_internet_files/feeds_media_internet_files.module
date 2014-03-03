@@ -1,0 +1,68 @@
+<?php
+
+/**
+ * @file
+ * Alters file data when saving an internet resource to a file.
+ */
+
+/**
+ * Implements hook_file_presave().
+ */
+function feeds_media_internet_files_file_presave($file) {
+
+  //if this is not coming from Feeds, do nothing
+  if (empty($file->feeds_item->url)) {  
+    return; 
+  }  
+  
+  //uncomment to see what you have to work with
+  //dsm($file);
+  
+  //if this IS coming from Feeds, set it up for Media
+  $file->uri = media_parse_to_uri($file->feeds_item->url);
+  
+  //is this now the same for all media_[provider] modules?
+  $wrapper = file_stream_wrapper_get_instance_by_uri($file->uri);
+  $parts = $wrapper->get_parameters();
+  $media_type = get_class($wrapper);
+
+  // if there is a title field mapped and a video element in the array, 
+  // use that for the filename
+  // @TODO: this needs to be more flexible.  Soundcloud audio won't
+  // have a video element
+    
+  //CLOUDCAST
+  if ($media_type == 'MediaCloudcastStreamWrapper') {
+    $file->filename = isset($file->field_title[LANGUAGE_NONE][0]['value']) ? $file->field_title[LANGUAGE_NONE][0]['value'] : check_plain($parts['video']);
+  }
+
+  //YOUTUBE, VIMEO, ??
+  if ($media_type == 'MediaYouTubeStreamWrapper' || $media_type == 'MediaVimeoStreamWrapper') {
+    $file->filename = isset($file->field_title[LANGUAGE_NONE][0]['value']) ? $file->field_title[LANGUAGE_NONE][0]['value'] : check_plain($parts['v']);
+  } 
+  
+  $file->status = 1;
+
+  // Always ensure the filemime property is current.
+  if (empty($file->filemime)) {
+    $file->filemime = file_get_mimetype($file->uri);
+  }
+
+  // The file type is used as a bundle key, and therefore, must not be NULL.
+  // It defaults to FILE_TYPE_NONE when loaded via file_load(), but in case
+  // file_save() is called on a new file object, default it here too.
+  if (!isset($file->type)) {
+    $file->type = FILE_TYPE_NONE;
+  }
+
+  // If the file isn't already assigned a real type, determine what type should
+  // be assigned to it.
+  if ($file->type === FILE_TYPE_NONE) {
+    $type = file_get_type($file);
+    if (isset($type)) {
+      $file->type = $type;
+    }
+  }
+
+  return $file;
+}

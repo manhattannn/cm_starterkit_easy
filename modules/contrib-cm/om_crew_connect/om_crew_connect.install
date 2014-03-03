@@ -1,0 +1,15 @@
+<?php
+/**
+ * Implementation of hook_enable()
+ */
+function om_crew_connect_enable() {
+
+  // New module weights in core: put om_crew_connect towards to end of the list.
+  db_update('system')
+    ->fields(array(
+      'weight' => 87,
+    ))
+    ->condition('type', 'module')
+    ->condition('name', 'om_crew_connect')
+    ->execute();
+}
